@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasite University</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo1-Photoroom.png" alt="Kasite University Logo" class="logo-img">
+                <h2>KASITE UNIVERSITY</h2>
+            </div>
+            <ul class="links">
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#quality-education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="login-btn">LOG IN</button>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1>Inspiring Excellence</h1>
+            <p>KASITE University is a premier institution</p>
+            <p>dedicated to excellence in education,</p>
+            <p>innovation, and research. With a</p>
+            <p>commitment to nurturing future leaders,</p>
+            <p>we provide a dynamic learning</p>
+            <p>environment that empowers students to</p>
+            <p>excel academically, professionally, and</p>
+            <p>socially. At KASITE, we shape minds and inspire possibilities.</p>
+        </div>
+    </div>
+
+    <section id="departments" class="section">
+        <h2 class="section-title">Departments</h2>
+        <div class="placeholders">
+            <div class="placeholder"><img src="snahs-Photoroom.png" alt="Image 1"></div>
+            <div class="placeholder"><img src="site-Photoroom.jpg" alt="Image 2"></div>
+            <div class="placeholder"><img src="SBAHM-Photoroom.jpg" alt="Image 3"></div>
+            <div class="placeholder"><img src="saste-Photoroom.jpg" alt="Image 4"></div>
+        </div>
+    </section>
+
+    <section id="quality-education" class="section">
+        <h2 class="section-title">Quality Education</h2>
+        <p class="section-description">
+            At Kasite University, we pride ourselves on fostering an environment that enables students to achieve their fullest potential.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <p>KASITE UNIVERSITY</p>
+            <p>123 Education Street, Knowledge City</p>
+            <p>Email: contact@kasite.edu | Phone: +123-456-7890</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>Log In</h2>
+                <p>Welcome! Please log in to your account.</p>
+            </div>
+            <div class="modal-body">
+                <form action="#" method="POST">
+                    <label for="username">Email:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

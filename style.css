@@ -26,89 +26,40 @@ header {
     padding: 0 20px;
 }
 
-.navbar .logo {
-    display: flex;
-    flex-direction: column; /* Arrange logo and text vertically */
-    align-items: center; /* Center all items horizontally */
-    justify-content: center; /* Center content vertically if needed */
-}
-
-.navbar .logo h2 {
-    font-size: 1.8rem;
-    margin: 0;
-    color: #FAD77C; /* Set KASITE UNIVERSITY color */
-    text-align: center;
-}
-
-.navbar .logo .sub-title {
-    font-size: 1rem;
-    color: #FAD77C; /* Set color for subheading */
-    font-family: 'Times New Roman', serif; /* Set font to Times New Roman */
-    text-align: center; /* Ensure subtitle is centered */
-    margin-top: 5px; /* Add space between title and subtitle */
-}
-
-.navbar .logo-img {
-    width: 40px; 
-    height: 40px; 
-    border-radius: 50%; 
-    margin-bottom: 10px; /* Add space between logo and title */
-    object-fit: cover;
-}
-
-.navbar {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    padding: 0 20px;
-}
-
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo-img {
-    width: 40px; 
-    height: 40px; 
-    border-radius: 50%; 
-    margin-right: 10px;
-    object-fit: cover; 
-}
 
 
 .logo-container {
     display: flex;
-    align-items: center; 
-    gap: 20px; 
-    padding: 10px 20px; 
+    align-items: center; /* Align logo and text vertically */
+    gap: 20px; /* Space between the logo and text */
+    padding: 10px 20px; /* Optional padding */
 }
 
 .logo-img {
-    width: 60px; 
-    height: auto; 
+    width: 80px; /* Adjusted logo size to match your example */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .text-container {
-    text-align: left; 
+    text-align: left; /* Align text to the left */
 }
 
 .text-container h1 {
-    font-size: 2rem;
-    color: #FAD77C; 
+    font-size: 2rem; /* Adjust title size */
+    color: #FAD77C; /* Match text color */
     margin: 0;
     font-family: 'Times New Roman', serif;
 }
 
 .text-container p {
-    font-size: 1rem; 
-    color: #FAD77C; 
+    font-size: 1rem; /* Adjust subtitle size */
+    color: #FAD77C; /* Match text color */
     margin: 0;
     font-family: 'Times New Roman', serif;
+}
+.navbar .logo h2 {
+    font-size: 1.8rem;
+    margin: 0;
 }
 
 .navbar .links {
